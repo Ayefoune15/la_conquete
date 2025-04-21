@@ -442,4 +442,130 @@ padding-top: 10px;
 border-top: 1px solid #444;
 font-size: 14px;
 }
+/*  RESPONSIVE DESIGN - MOBILE FIRST */
+@media (max-width: 992px) {
+    header {
+      padding: 10px 5%;
+    }
+  
+    .hero {
+      flex-direction: column-reverse;
+      text-align: center;
+      padding: 60px 5%;
+    }
+  
+    .hero-content, .hero-image img {
+      max-width: 100%;
+    }
+  
+    .hero-content h1 {
+      font-size: 28px;
+    }
 
+    .hero-contents p {
+        margin-top: -50px;
+       
+    }
+  
+    .hero-contents {
+      margin-top: -50px;
+      padding: 40px 5%;
+    }
+
+    .hero-image img {
+        margin-top: 100px;
+    }
+  
+    .product-container {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+  
+    .product-card {
+      width: 90%;
+    }
+  
+    .about-container {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .about-text, .about-image img {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .about-content {
+      padding: 20px 5%;
+    }
+  
+    form {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    footer {
+      padding: 40px 5%;
+      text-align: center;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+  
+    .footer-section {
+      min-width: 100%;
+      text-align: center;
+    }
+  
+    .social-media {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .social-media img {
+      width: 100px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+  
+    nav ul li {
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero-content h1,
+    .contact h1,
+    #about h1,
+    #produits h1 {
+      font-size: 24px;
+    }
+  
+    .hero-content p,
+    .hero-contents p,
+    .about-content p,
+    .contact p {
+      font-size: 15px;
+    }
+  
+    .product-card h2 {
+      font-size: 16px;
+    }
+  
+    .product-card p {
+      font-size: 13px;
+    }
+  
+    input, textarea {
+      font-size: 15px;
+    }
+  }
